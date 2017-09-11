@@ -51,13 +51,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<section class="cta-blocks">
 			<div class="block">
 				<h3><?php the_field('cta_block_1_headline'); ?></h3>
-				<a target="_blank" href="j<?php the_field('cta_block_1_url'); ?>" class="button button-sm">Join
+				<a target="_blank" href="<?php the_field('cta_block_1_url'); ?>" class="button button-sm"><?php the_field('cta_block_1_label'); ?>
 					<svg width="10" height="9" viewBox="0 0 10 9" xmlns="http://www.w3.org/2000/svg"><path d="M10 4.5L5.585 0l-.963.96 2.806 2.857H0v1.366h7.428L4.622 8.025 5.585 9" fill="#FFF" fill-rule="evenodd"/></svg>			
 				</a>
 			</div>
 			<div class="block">
 				<h3><?php the_field('cta_block_2_headline'); ?></h3>
-				<a target="_blank" href="<?php the_field('cta_block_2_url'); ?>" class="button button-sm dark">Contact
+				<a target="_blank" href="<?php the_field('cta_block_2_url'); ?>" class="button button-sm dark"><?php the_field('cta_block_2_label'); ?>
 					<svg width="12" height="9" viewBox="0 0 12 9" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5L6.702 0 5.546.96l3.367 2.857H0v1.366h8.913L5.546 8.025 6.702 9" fill="#000" fill-rule="evenodd"/></svg>
 				</a>
 			</div>

@@ -1114,6 +1114,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 				}
 			}
 
+			#main .fullwidth-box .fusion-row {
+				margin-top: 30px;
+			}
+
 	</style>
 
 
